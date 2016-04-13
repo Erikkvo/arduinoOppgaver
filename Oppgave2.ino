@@ -1,10 +1,10 @@
 
-//I denne oppgaven skal du bruke et potentimeter til å sende verdier tilbake til Arduionen, som du igjen skal bruke til å bestemme blinkehastigheten på et lys. 
-//Til denne oppgaven kommer til du til trenge et potentimeter. De ser slik ut: http://www.exploringarduino.com/wp-content/uploads/2013/06/10k-ohm-trimpot-400x247.jpg
+//I denne oppgaven skal du bruke en fleks-sensor til å sende verdier tilbake til Arduionen, som du igjen skal bruke til å bestemme blinkehastigheten på et lys. 
+//Til denne oppgaven kommer til du til trenge en fleks-sensor. De ser slik ut: http://www.exploringarduino.com/wp-content/uploads/2013/06/10k-ohm-trimpot-400x247.jpg
 //Dersom du ikke har et slikt i ditt kit, rekk opp en hånd. 
 //Forslag til krets: https://123d.circuits.io/circuits/1952080-oppgave2 
 
-int sensorPin = 0;    // The potentiometer is connected to analog pin 0
+int sensorPin = 0;    // The sensor is connected to analog pin 0
                       //Merk at det er en forskjell mellom analoge og digitale porter, porten det er snakk om er merket A0
 
 int ledPin = 13;      // The LED is connected to digital pin 13
