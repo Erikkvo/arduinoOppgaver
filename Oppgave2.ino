@@ -1,8 +1,8 @@
 
 //I denne oppgaven skal du bruke en fleks-sensor til å sende verdier tilbake til Arduionen, som du igjen skal bruke til å bestemme blinkehastigheten på et lys. 
-//Til denne oppgaven kommer til du til trenge en fleks-sensor. De ser slik ut: http://www.exploringarduino.com/wp-content/uploads/2013/06/10k-ohm-trimpot-400x247.jpg
+//Til denne oppgaven kommer til du til trenge en fleks-sensor. De ser slik ut: http://www.spectrasymbol.com/wp-content/themes/spectra/images/banner_image.png
 //Dersom du ikke har et slikt i ditt kit, rekk opp en hånd. 
-//Forslag til krets: https://123d.circuits.io/circuits/1952080-oppgave2 
+//Forslag til krets: https://123d.circuits.io/circuits/1952080-oppgave2 . Merk deg at "blå-dingsen" er hvor fleks-sensoren skal puttes. Den brukes på samme måte
 
 int sensorPin = 0;    // The sensor is connected to analog pin 0
                       //Merk at det er en forskjell mellom analoge og digitale porter, porten det er snakk om er merket A0
