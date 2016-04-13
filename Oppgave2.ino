@@ -17,13 +17,13 @@ void loop() {
   // put your main code here, to run repeatedly:
   int sensorValue; //Her oppretter vi bare en varibel som vi skal bruke senere 
   
-  sensorValue = analogRead(sensorPin); //Her blir sensorValue satt til det samme som port A0 leser. 
+  sensorValue = analogRead(); //Hva bør analogRead(Finn ut hva som skal stå her) lese? En port kanskje?
+  //Visste du at analogRead kan ha verdier fra 0 til 1023?
+  digitalWrite(ledPin, HIGH);  // Turn the LED on
   
-  digitalWrite(ledPin, HIGH);     // Turn the LED on
+  delay();                    //Har vi et tall som kan fungere som et delay? 
   
-  delay(sensorValue);             // Pause for sensorValue milliseconds 
+  digitalWrite(ledPin, LOW);  // Turn the LED off
   
-  digitalWrite(ledPin, LOW);      // Turn the LED off
-  
-  delay(sensorValue);             // Pause for sensorValue milliseconds
+  delay();                    // Pause for sensorValue milliseconds
 }
