@@ -1,7 +1,7 @@
 
 //Nå skal vi prøve å gjøre noe litt mer spennende enn å få et lys til å blinke, nå skal vi prøve å få en servo til å rotere!
 //En servo er en bitteliten motor, som beveger på tannhjul som derretter roterer på et hode. I denne oppgaven skal du bestemme hvordan motoren fungerer
-
+//Forslag til hvordan sette sammen: https://123d.circuits.io/circuits/1952861-oppgave-3
 # include <Servo.h> //Fordi servoen er litt mer avansert en et LED-lys må vi hente inn litt ekstra funksjonalitet ved å hente inn et bibliotek.
 
 Servo myservo; //Her oppretter du et "servo-objekt". Du kan se på den som en digital representasjon av din fysiske servo.
